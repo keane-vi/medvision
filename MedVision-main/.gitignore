@@ -1,0 +1,15 @@
+
+# Xcode user-specific files
+**/xcuserdata/
+*.xcuserstate
+
+# Placeholder / mock data (local only)
+**/PlaceholderData.swift
+
+# Environment and Supabase local state
+.env
+.env.*
+supabase/.temp/
+
+# Local prototype OCR secret
+MedVision/App/PrototypeOCRSecrets.swift
